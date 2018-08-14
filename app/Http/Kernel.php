@@ -14,7 +14,11 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+<<<<<<< HEAD
         \App\Http\Middleware\CheckForMaintenanceMode::class,
+=======
+        \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+>>>>>>> 09b77e3d1bcfde887b18590447bdbd4f1df7751f
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
