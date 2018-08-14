@@ -32,7 +32,7 @@ export default class App extends Component {
                                    <div className="form-group">
                                         <textarea onChange={this.HandleChange} value={this.state.name} maxLength="255" className="form-control" rows="5" placeholder="Create a new task" required/>
                                    </div>
-                                   <button type="submit" className="btn btn-primary">Create Task</button>
+                                   <button type="submit" className="btn btn-primary">Create Tasks</button>
                                </form>
                             </div>
                         </div>

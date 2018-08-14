@@ -55856,7 +55856,7 @@ var App = function (_Component) {
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                         'button',
                                         { type: 'submit', className: 'btn btn-primary' },
-                                        'Create Task'
+                                        'Create Tasks'
                                     )
                                 )
                             )
